@@ -23,7 +23,7 @@
 </style>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="doodle001B_HTML5_202404.js?1713236976416"></script>
-<audio src="https://www.bensound.com/bensound-music/bensound-moose.mp3"></audio>
+<audio src="https://darkdevil727.github.io/Wedding/sounds/bg_music.mp3"></audio>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -57,6 +57,30 @@ function handleComplete(evt,comp) {
 }
 </script>
 <!-- write your code here -->
+
+
+const button = document.querySelector("#button");
+const icon = document.querySelector("#button > i");
+const audio = document.querySelector("audio");
+
+button.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.volume = 0.2;
+    audio.play();
+    icon.classList.remove('fa-volume-up');
+    icon.classList.add('fa-volume-mute');
+    
+  } else {
+    audio.pause();
+    icon.classList.remove('fa-volume-mute');
+    icon.classList.add('fa-volume-up');
+  }
+  button.classList.add("fade");
+});
+
+	
+
+	
 </head>
 <body onload="init();" style="margin:0px;">
 	<div id="animation_container" style="background-color:rgba(158, 171, 123, 1.00); width:640px; height:1136px">
