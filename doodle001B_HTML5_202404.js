@@ -4723,14 +4723,16 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame()
 		{
 			var frameNumber = this.currentFrame;
+			this.hearts.gotoAndPlay(1);
 			if(frameNumber == 1){
-				this.gotoAndStop(0);
-					
-				this.hearts.gotoAndPlay(1);
+				
+				this.gotoAndStop(0);			
+				
 				}
 			if(frameNumber == 0){
+				
 				this.gotoAndStop(1);
-				this.hearts.gotoAndPlay(1);
+				
 				}
 			
 		}
@@ -4738,22 +4740,10 @@ if (reversed == null) { reversed = false; }
 		/*createjs.Sound.registerSound("./sounds/bg_music.mp3","soung1ID");
 		createjs.Sound.play("soung1ID"); */
 		
-		createjs.Sound.on("fileload", function handleLoad(event) {
-		    root.audio = createjs.Sound.play("soundID");
-		});
 		
-		createjs.Sound.registerSound("sounds/bg_music.mp3", "soundID");  
 		
 		//this.audio1.paused = true; // pause     
-		//this.audio1.paused = false; // resume 
-		
-		this.onOff_btn.on("click", function(){
-		    if(root.audio.paused) {
-		        root.audio.paused = false; // resume
-		    } else {
-		        root.audio.paused = true; // pause
-		    }
-		});
+		//this.audio1.paused = false; // resume
 	}
 
 	// actions tween:
