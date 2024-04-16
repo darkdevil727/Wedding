@@ -4735,14 +4735,8 @@ if (reversed == null) { reversed = false; }
 			
 		}
 		
-		
-		
-		/* Play a Movie Clip
-		Plays the specified movie clip on stage.
-		
-		Instructions:
-		1. Use this code for movie clips that are currently stopped.
-		*/
+		createjs.Sound.registerSound("./sounds/bg_music.mp3","soung1ID");
+		createjs.Sound.play("soung1ID");
 	}
 
 	// actions tween:
@@ -5537,7 +5531,6 @@ if (reversed == null) { reversed = false; }
 	// words_CN
 	this.instance_11 = new lib.Symbol28();
 	this.instance_11.setTransform(321.2,595.9,1,1,0,0,0,295.9,342.5);
-	this.instance_11.shadow = new cjs.Shadow("rgba(102,0,0,1)",0,0,13);
 	this.instance_11._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(1).to({_off:false},0).wait(1));
