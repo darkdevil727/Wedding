@@ -4735,8 +4735,25 @@ if (reversed == null) { reversed = false; }
 			
 		}
 		
-		createjs.Sound.registerSound("./sounds/bg_music.mp3","soung1ID");
-		createjs.Sound.play("soung1ID");
+		/*createjs.Sound.registerSound("./sounds/bg_music.mp3","soung1ID");
+		createjs.Sound.play("soung1ID"); */
+		
+		createjs.Sound.on("fileload", function handleLoad(event) {
+		    root.audio = createjs.Sound.play("soundID");
+		});
+		
+		createjs.Sound.registerSound("sounds/bg_music.mp3", "soundID");  
+		
+		//this.audio1.paused = true; // pause     
+		//this.audio1.paused = false; // resume 
+		
+		this.onOff_btn.on("click", function(){
+		    if(root.audio.paused) {
+		        root.audio.paused = false; // resume
+		    } else {
+		        root.audio.paused = true; // pause
+		    }
+		});
 	}
 
 	// actions tween:
