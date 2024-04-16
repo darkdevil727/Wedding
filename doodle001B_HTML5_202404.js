@@ -3502,19 +3502,19 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#E7B4F4").ss(1,1,1).p("AerAAQAAO5o/KhQo/KjstAAQssAAo/qjQo/qhAAu5QAAu4I/qiQI/qiMsAAQMtAAI/KiQI/KiAAO4g");
-	this.shape.setTransform(196.325,230.075);
+	this.shape.graphics.f().s("#78845B").ss(1,1,1).p("Eg2rhWtMBtXAAAMAAACtbMhtXAAAg");
+	this.shape.setTransform(200,5.0456,1,1.0891);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#A6A7FF").s().p("A1rZaQo/qhAAu5QAAu4I/qiQI/qiMsAAQMtAAI/KiQI/KiAAO4QAAO5o/KhQo/KjstAAQssAAo/qjg");
-	this.shape_1.setTransform(196.325,230.075);
+	this.shape_1.graphics.f("#FFFFC6").s().p("Eg2rBWuMAAAitbMBtXAAAMAAACtbg");
+	this.shape_1.setTransform(200,5.0456,1,1.0891);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_1},{t:this.shape}]},3).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-1,-1,394.7,462.2);
+p.nominalBounds = new cjs.Rectangle(-151,-600.4,702,1210.9);
 
 
 (lib.Symbol25 = function(mode,startPosition,loop,reversed) {
