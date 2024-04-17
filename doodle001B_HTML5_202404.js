@@ -7830,14 +7830,22 @@ if (reversed == null) { reversed = false; }
 
 	// Card_BG
 	this.shape_179 = new cjs.Shape();
-	this.shape_179.graphics.f("#9EAB7B").s().p("Eg0WBa0MAAAi1nMBotAAAMAAAC1ng");
-	this.shape_179.setTransform(315.15,561.2);
+	this.shape_179.graphics.f().s("#000000").ss(1,1,1).p("Eg0VhhpMBorAAAQCWAAAACWMAAAC+nQAACWiWAAMhorAAAQiWAAAAiWMAAAi+nQAAiWCWAAg");
+	this.shape_179.setTransform(320,525);
 
 	this.shape_180 = new cjs.Shape();
-	this.shape_180.graphics.f("#FFBBCC").s().p("Eg0WBa0MAAAi1nMBotAAAMAAAC1ng");
-	this.shape_180.setTransform(315.15,561.2);
+	this.shape_180.graphics.f("#FFFFDB").s().p("Eg0VBhqQiWAAAAiWMAAAi+nQAAiWCWAAMBorAAAQCWAAAACWMAAAC+nQAACWiWAAg");
+	this.shape_180.setTransform(320,525);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_179}]},1).to({state:[{t:this.shape_180}]},1).wait(1));
+	this.shape_181 = new cjs.Shape();
+	this.shape_181.graphics.f("#9EAB7B").s().p("Eg0WBa0MAAAi1nMBotAAAMAAAC1ng");
+	this.shape_181.setTransform(315.15,561.2);
+
+	this.shape_182 = new cjs.Shape();
+	this.shape_182.graphics.f("#FFBBCC").s().p("Eg0WBa0MAAAi1nMBotAAAMAAAC1ng");
+	this.shape_182.setTransform(315.15,561.2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_180},{t:this.shape_179}]}).to({state:[{t:this.shape_181}]},1).to({state:[{t:this.shape_182}]},1).wait(1));
 
 	this._renderFirstFrame();
 
