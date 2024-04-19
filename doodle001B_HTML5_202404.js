@@ -443,15 +443,15 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_147 = function() {
+(lib.CachedBmp_149 = function() {
 	this.initialize(ss["doodle001B_HTML5_202404_atlas_1"]);
 	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_131 = function() {
-	this.initialize(img.CachedBmp_131);
+(lib.CachedBmp_46 = function() {
+	this.initialize(img.CachedBmp_46);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3037,2340);
 
@@ -2269,13 +2269,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_58 = new lib.Symbol8();
 	this.instance_58.setTransform(312.55,589.35,2.3292,2.3292,90,0,0,223.8,158);
 
-	this.instance_59 = new lib.CachedBmp_147();
+	this.instance_59 = new lib.CachedBmp_149();
 	this.instance_59.setTransform(125.1,846,0.5,0.5);
 
 	this.instance_60 = new lib.Symbol17();
 	this.instance_60.setTransform(114.85,820.8,2.0262,2.0262,6.5136,0,0,36.1,80.7);
 
-	this.instance_61 = new lib.CachedBmp_131();
+	this.instance_61 = new lib.CachedBmp_46();
 	this.instance_61.setTransform(-848.15,0.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_61},{t:this.instance_60},{t:this.instance_59},{t:this.instance_58},{t:this.instance_57},{t:this.instance_56},{t:this.instance_55},{t:this.instance_54},{t:this.instance_53},{t:this.instance_52},{t:this.instance_51},{t:this.instance_50},{t:this.instance_49},{t:this.instance_48},{t:this.instance_47},{t:this.instance_46},{t:this.instance_45},{t:this.instance_44},{t:this.instance_43},{t:this.instance_42},{t:this.instance_41},{t:this.instance_40},{t:this.instance_39},{t:this.instance_38},{t:this.instance_37},{t:this.instance_36},{t:this.instance_35},{t:this.instance_34},{t:this.instance_33},{t:this.instance_32},{t:this.instance_31},{t:this.instance_30},{t:this.instance_29},{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.instance_24},{t:this.instance_23},{t:this.instance_22},{t:this.instance_21},{t:this.instance_20},{t:this.instance_19},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16},{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -2344,6 +2344,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_3 = new lib.Symbol44();
 	this.instance_3.setTransform(277.6,159.35,0.4083,0.4083,-90,0,0,335.1,581.9);
 	this.instance_3._off = true;
+	this.instance_3.cache(-850,-2,1523,1174);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1).to({_off:false},0).wait(52).to({regX:324,regY:581.8,y:159.4},0).wait(1).to({regX:-88.9,regY:585.3,x:279,y:306.2},0).wait(1).to({y:284.95},0).wait(1).to({y:264.2},0).wait(1).to({y:244},0).wait(1).to({y:224.3},0).wait(1).to({y:205.15},0).wait(1).to({y:186.5},0).wait(1).to({y:168.4},0).wait(1).to({y:150.8},0).wait(1).to({y:133.75},0).wait(1).to({rotation:-75.6129,x:237.1,y:124.6},0).wait(1).to({rotation:-56.9443,x:186.8,y:103.05},0).wait(1).to({rotation:-38.88,x:147.2,y:67.95},0).wait(1).to({rotation:-21.4329,x:121.15,y:23.9},0).wait(1).to({rotation:-4.6029,x:109.6,y:-24.1},0).wait(1).to({scaleX:0.4388,scaleY:0.4388,rotation:0,x:95.65,y:-25.15},0).wait(1).to({scaleX:0.4798,scaleY:0.4798,x:77.7,y:-8.4},0).wait(1).to({scaleX:0.5192,scaleY:0.5192,x:60.45,y:7.65},0).wait(1).to({scaleX:0.5569,scaleY:0.5569,x:43.95,y:23.05},0).wait(1).to({scaleX:0.5931,scaleY:0.5931,x:28.05,y:37.85},0).wait(1).to({scaleX:0.6277,scaleY:0.6277,x:12.95,y:51.9},0).wait(1).to({scaleX:0.6606,scaleY:0.6606,x:-1.5,y:65.4},0).wait(1).to({scaleX:0.6919,scaleY:0.6919,x:-15.15,y:78.15},0).wait(1).to({scaleX:0.7216,scaleY:0.7216,x:-28.2,y:90.3},0).wait(1).to({scaleX:0.7498,scaleY:0.7498,x:-40.5,y:101.8},0).wait(1).to({scaleX:0.7763,scaleY:0.7763,x:-52.1,y:112.6},0).wait(1).to({scaleX:0.8012,scaleY:0.8012,x:-63,y:122.75},0).wait(1).to({scaleX:0.8245,scaleY:0.8245,x:-73.25,y:132.3},0).wait(1).to({scaleX:0.8462,scaleY:0.8462,x:-82.7,y:141.15},0).wait(1).to({scaleX:0.8663,scaleY:0.8663,x:-91.45,y:149.3},0).wait(1).to({scaleX:0.8848,scaleY:0.8848,x:-99.55,y:156.9},0).wait(1).to({scaleX:0.9016,scaleY:0.9016,x:-106.95,y:163.75},0).wait(1).to({scaleX:0.9169,scaleY:0.9169,x:-113.6,y:170},0).wait(1).to({scaleX:0.9306,scaleY:0.9306,x:-119.65,y:175.6},0).wait(1).to({scaleX:0.9426,scaleY:0.9426,x:-124.9,y:180.5},0).wait(1).to({scaleX:0.953,scaleY:0.953,x:-129.45,y:184.75},0).wait(1).to({scaleX:0.9619,scaleY:0.9619,x:-133.3,y:188.35},0).wait(1).to({scaleX:0.9691,scaleY:0.9691,x:-136.5,y:191.3},0).wait(1).to({scaleX:0.9747,scaleY:0.9747,x:-138.95,y:193.6},0).wait(1).to({scaleX:0.9787,scaleY:0.9787,x:-140.7,y:195.25},0).wait(1).to({scaleX:0.9812,scaleY:0.9812,x:-141.75,y:196.2},0).wait(1).to({scaleX:0.982,scaleY:0.982,x:-142.15,y:196.55},0).wait(1));
 
@@ -2970,17 +2971,17 @@ lib.properties = {
 	color: "#FFFFCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_131.png?1713495712959", id:"CachedBmp_131"},
-		{src:"images/CachedBmp_50.png?1713495712959", id:"CachedBmp_50"},
-		{src:"images/CachedBmp_11.png?1713495712959", id:"CachedBmp_11"},
-		{src:"images/CachedBmp_10.png?1713495712959", id:"CachedBmp_10"},
-		{src:"images/CachedBmp_7.png?1713495712959", id:"CachedBmp_7"},
-		{src:"images/CachedBmp_6.png?1713495712959", id:"CachedBmp_6"},
-		{src:"images/CachedBmp_1.png?1713495712959", id:"CachedBmp_1"},
-		{src:"images/doodle001B_HTML5_202404_atlas_1.png?1713495712743", id:"doodle001B_HTML5_202404_atlas_1"},
-		{src:"images/doodle001B_HTML5_202404_atlas_2.png?1713495712743", id:"doodle001B_HTML5_202404_atlas_2"},
-		{src:"images/doodle001B_HTML5_202404_atlas_3.png?1713495712744", id:"doodle001B_HTML5_202404_atlas_3"},
-		{src:"images/doodle001B_HTML5_202404_atlas_4.png?1713495712744", id:"doodle001B_HTML5_202404_atlas_4"}
+		{src:"images/CachedBmp_46.png?1713495822620", id:"CachedBmp_46"},
+		{src:"images/CachedBmp_50.png?1713495822620", id:"CachedBmp_50"},
+		{src:"images/CachedBmp_11.png?1713495822620", id:"CachedBmp_11"},
+		{src:"images/CachedBmp_10.png?1713495822620", id:"CachedBmp_10"},
+		{src:"images/CachedBmp_7.png?1713495822620", id:"CachedBmp_7"},
+		{src:"images/CachedBmp_6.png?1713495822620", id:"CachedBmp_6"},
+		{src:"images/CachedBmp_1.png?1713495822620", id:"CachedBmp_1"},
+		{src:"images/doodle001B_HTML5_202404_atlas_1.png?1713495822399", id:"doodle001B_HTML5_202404_atlas_1"},
+		{src:"images/doodle001B_HTML5_202404_atlas_2.png?1713495822399", id:"doodle001B_HTML5_202404_atlas_2"},
+		{src:"images/doodle001B_HTML5_202404_atlas_3.png?1713495822400", id:"doodle001B_HTML5_202404_atlas_3"},
+		{src:"images/doodle001B_HTML5_202404_atlas_4.png?1713495822400", id:"doodle001B_HTML5_202404_atlas_4"}
 	],
 	preloads: []
 };
