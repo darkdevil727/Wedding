@@ -2971,17 +2971,17 @@ lib.properties = {
 	color: "#FFFFCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_46.png?1713496798478", id:"CachedBmp_46"},
-		{src:"images/CachedBmp_50.png?1713496798478", id:"CachedBmp_50"},
-		{src:"images/CachedBmp_11.png?1713496798478", id:"CachedBmp_11"},
-		{src:"images/CachedBmp_10.png?1713496798478", id:"CachedBmp_10"},
-		{src:"images/CachedBmp_7.png?1713496798478", id:"CachedBmp_7"},
-		{src:"images/CachedBmp_6.png?1713496798478", id:"CachedBmp_6"},
-		{src:"images/CachedBmp_1.png?1713496798478", id:"CachedBmp_1"},
-		{src:"images/doodle001B_HTML5_202404_atlas_1.png?1713496798260", id:"doodle001B_HTML5_202404_atlas_1"},
-		{src:"images/doodle001B_HTML5_202404_atlas_2.png?1713496798261", id:"doodle001B_HTML5_202404_atlas_2"},
-		{src:"images/doodle001B_HTML5_202404_atlas_3.png?1713496798261", id:"doodle001B_HTML5_202404_atlas_3"},
-		{src:"images/doodle001B_HTML5_202404_atlas_4.png?1713496798261", id:"doodle001B_HTML5_202404_atlas_4"}
+		{src:"images/CachedBmp_46.png", id:"CachedBmp_46"},
+		{src:"images/CachedBmp_50.png", id:"CachedBmp_50"},
+		{src:"images/CachedBmp_11.png", id:"CachedBmp_11"},
+		{src:"images/CachedBmp_10.png", id:"CachedBmp_10"},
+		{src:"images/CachedBmp_7.png", id:"CachedBmp_7"},
+		{src:"images/CachedBmp_6.png", id:"CachedBmp_6"},
+		{src:"images/CachedBmp_1.png", id:"CachedBmp_1"},
+		{src:"images/doodle001B_HTML5_202404_atlas_1.png", id:"doodle001B_HTML5_202404_atlas_1"},
+		{src:"images/doodle001B_HTML5_202404_atlas_2.png", id:"doodle001B_HTML5_202404_atlas_2"},
+		{src:"images/doodle001B_HTML5_202404_atlas_3.png", id:"doodle001B_HTML5_202404_atlas_3"},
+		{src:"images/doodle001B_HTML5_202404_atlas_4.png", id:"doodle001B_HTML5_202404_atlas_4"}
 	],
 	preloads: []
 };
