@@ -822,7 +822,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2462,1259);
 
 
 
-(lib.CachedBmp_146 = function() {
+(lib.CachedBmp_148 = function() {
 	this.initialize(ss["doodle001B_HTML5_202404_atlas_1"]);
 	this.gotoAndStop(76);
 }).prototype = p = new cjs.Sprite();
@@ -2900,7 +2900,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_7 = new lib.Symbol18();
 	this.instance_7.setTransform(295.7,569.05,3.0628,3.0628,0,0,0,121.2,171.7);
 
-	this.instance_8 = new lib.CachedBmp_146();
+	this.instance_8 = new lib.CachedBmp_148();
 	this.instance_8.setTransform(100.6,825.65,0.5,0.5);
 
 	this.instance_9 = new lib.Symbol6();
@@ -2970,17 +2970,17 @@ lib.properties = {
 	color: "#FFFFCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_131.png?1713414792469", id:"CachedBmp_131"},
-		{src:"images/CachedBmp_50.png?1713414792469", id:"CachedBmp_50"},
-		{src:"images/CachedBmp_11.png?1713414792469", id:"CachedBmp_11"},
-		{src:"images/CachedBmp_10.png?1713414792469", id:"CachedBmp_10"},
-		{src:"images/CachedBmp_7.png?1713414792469", id:"CachedBmp_7"},
-		{src:"images/CachedBmp_6.png?1713414792469", id:"CachedBmp_6"},
-		{src:"images/CachedBmp_1.png?1713414792469", id:"CachedBmp_1"},
-		{src:"images/doodle001B_HTML5_202404_atlas_1.png?1713414792260", id:"doodle001B_HTML5_202404_atlas_1"},
-		{src:"images/doodle001B_HTML5_202404_atlas_2.png?1713414792260", id:"doodle001B_HTML5_202404_atlas_2"},
-		{src:"images/doodle001B_HTML5_202404_atlas_3.png?1713414792260", id:"doodle001B_HTML5_202404_atlas_3"},
-		{src:"images/doodle001B_HTML5_202404_atlas_4.png?1713414792260", id:"doodle001B_HTML5_202404_atlas_4"}
+		{src:"images/CachedBmp_131.png?1713495712959", id:"CachedBmp_131"},
+		{src:"images/CachedBmp_50.png?1713495712959", id:"CachedBmp_50"},
+		{src:"images/CachedBmp_11.png?1713495712959", id:"CachedBmp_11"},
+		{src:"images/CachedBmp_10.png?1713495712959", id:"CachedBmp_10"},
+		{src:"images/CachedBmp_7.png?1713495712959", id:"CachedBmp_7"},
+		{src:"images/CachedBmp_6.png?1713495712959", id:"CachedBmp_6"},
+		{src:"images/CachedBmp_1.png?1713495712959", id:"CachedBmp_1"},
+		{src:"images/doodle001B_HTML5_202404_atlas_1.png?1713495712743", id:"doodle001B_HTML5_202404_atlas_1"},
+		{src:"images/doodle001B_HTML5_202404_atlas_2.png?1713495712743", id:"doodle001B_HTML5_202404_atlas_2"},
+		{src:"images/doodle001B_HTML5_202404_atlas_3.png?1713495712744", id:"doodle001B_HTML5_202404_atlas_3"},
+		{src:"images/doodle001B_HTML5_202404_atlas_4.png?1713495712744", id:"doodle001B_HTML5_202404_atlas_4"}
 	],
 	preloads: []
 };
