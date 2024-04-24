@@ -9617,22 +9617,14 @@ if (reversed == null) { reversed = false; }
 
 	// Card_BG
 	this.shape_184 = new cjs.Shape();
-	this.shape_184.graphics.f().s("#000000").ss(1,1,1).p("Eg0VhhpMBorAAAQCWAAAACWMAAAC+nQAACWiWAAMhorAAAQiWAAAAiWMAAAi+nQAAiWCWAAg");
-	this.shape_184.setTransform(320,525);
+	this.shape_184.graphics.f("#9EAB7B").s().p("Eg0WBa0MAAAi1nMBotAAAMAAAC1ng");
+	this.shape_184.setTransform(315.15,561.2);
 
 	this.shape_185 = new cjs.Shape();
-	this.shape_185.graphics.f("#FFFFF5").s().p("Eg0VBhqQiWAAAAiWMAAAi+nQAAiWCWAAMBorAAAQCWAAAACWMAAAC+nQAACWiWAAg");
-	this.shape_185.setTransform(320,525);
+	this.shape_185.graphics.f("#FFBBCC").s().p("Eg0WBa0MAAAi1nMBotAAAMAAAC1ng");
+	this.shape_185.setTransform(315.15,561.2);
 
-	this.shape_186 = new cjs.Shape();
-	this.shape_186.graphics.f("#9EAB7B").s().p("Eg0WBa0MAAAi1nMBotAAAMAAAC1ng");
-	this.shape_186.setTransform(315.15,561.2);
-
-	this.shape_187 = new cjs.Shape();
-	this.shape_187.graphics.f("#FFBBCC").s().p("Eg0WBa0MAAAi1nMBotAAAMAAAC1ng");
-	this.shape_187.setTransform(315.15,561.2);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_185},{t:this.shape_184}]}).to({state:[{t:this.shape_186}]},1).to({state:[{t:this.shape_187}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_184}]},1).to({state:[{t:this.shape_185}]},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -9645,7 +9637,7 @@ lib.properties = {
 	height: 1136,
 	fps: 24,
 	color: "#9EAB7B",
-	opacity: 1.00,
+	opacity: 0.00,
 	manifest: [],
 	preloads: []
 };
