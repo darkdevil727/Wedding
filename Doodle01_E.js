@@ -8744,7 +8744,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.envelope).to({_off:true},1).wait(2));
 	this.envelope.addEventListener("tick", AdobeAn.handleFilterCache);
 
-	// Layer_5
+	// Hearts
 	this.hearts = new lib.Symbol32();
 	this.hearts.name = "hearts";
 	this.hearts.setTransform(332.25,663.95,0.6934,0.6934,0,0,0,122.2,-688.4);
