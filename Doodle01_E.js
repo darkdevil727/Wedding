@@ -6484,6 +6484,7 @@ if (reversed == null) { reversed = false; }
 	this.EN_Card.name = "EN_Card";
 	this.EN_Card.setTransform(277.6,137.4,0.4083,0.4083,-90,0,0,322.8,581.8);
 	this.EN_Card._off = true;
+	this.EN_Card.cache(-2,-2,658,1167);
 
 	this.timeline.addTween(cjs.Tween.get(this.EN_Card).wait(96).to({_off:false},0).wait(1).to({regX:327,regY:581.3,x:277.35,y:135.7,alpha:0.6667},0).wait(1).to({alpha:0.3333},0).wait(1).to({alpha:0},0).to({_off:true},1).wait(37));
 
@@ -6491,6 +6492,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1 = new lib.Symbol49();
 	this.instance_1.setTransform(278.95,52.1,0.4098,0.4098,-83.5651,0,0,1172.4,690.6);
 	this.instance_1._off = true;
+	this.instance_1.cache(853,118,656,1163);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(96).to({_off:false},0).wait(1).to({regX:1181,regY:699.6,rotation:-83.5646,x:283.05,y:22.9},0).wait(1).to({y:-2.5},0).wait(1).to({y:-27.25},0).wait(1).to({y:-51.3},0).wait(1).to({rotation:-64.4144,x:283.85,y:-55.15},0).wait(1).to({rotation:-40.3896,x:284.1,y:-53},0).wait(1).to({rotation:-17.0611,x:283.45,y:-50.95},0).wait(1).to({scaleX:0.4183,scaleY:0.4183,rotation:0,x:282.55,y:-45.85},0).wait(1).to({scaleX:0.4517,scaleY:0.4517,x:282.6,y:-30.15},0).wait(1).to({scaleX:0.4841,scaleY:0.4841,x:282.7,y:-15},0).wait(1).to({scaleX:0.5154,scaleY:0.5154,x:282.8,y:-0.3},0).wait(1).to({scaleX:0.5456,scaleY:0.5456,x:282.9,y:13.85},0).wait(1).to({scaleX:0.5748,scaleY:0.5748,x:283,y:27.55},0).wait(1).to({scaleX:0.6029,scaleY:0.6029,x:283.05,y:40.7},0).wait(1).to({scaleX:0.63,scaleY:0.63,x:283.15,y:53.4},0).wait(1).to({scaleX:0.656,scaleY:0.656,x:283.2,y:65.55},0).wait(1).to({scaleX:0.6809,scaleY:0.6809,x:283.3,y:77.25},0).wait(1).to({scaleX:0.7048,scaleY:0.7048,x:283.35,y:88.4},0).wait(1).to({scaleX:0.7276,scaleY:0.7276,x:283.4,y:99.1},0).wait(1).to({scaleX:0.7493,scaleY:0.7493,x:283.45,y:109.35},0).wait(1).to({scaleX:0.77,scaleY:0.77,x:283.5,y:119},0).wait(1).to({scaleX:0.7897,scaleY:0.7897,x:283.55,y:128.2},0).wait(1).to({scaleX:0.8082,scaleY:0.8082,x:283.6,y:136.9},0).wait(1).to({scaleX:0.8257,scaleY:0.8257,x:283.65,y:145.05},0).wait(1).to({scaleX:0.8422,scaleY:0.8422,x:283.7,y:152.8},0).wait(1).to({scaleX:0.8576,scaleY:0.8576,x:283.75,y:160},0).wait(1).to({scaleX:0.8719,scaleY:0.8719,x:283.8,y:166.7},0).wait(1).to({scaleX:0.8851,scaleY:0.8851,x:283.85,y:172.95},0).wait(1).to({scaleX:0.8973,scaleY:0.8973,y:178.65},0).wait(1).to({scaleX:0.9085,scaleY:0.9085,x:283.9,y:183.85},0).wait(1).to({scaleX:0.9186,scaleY:0.9186,y:188.55},0).wait(1).to({scaleX:0.9276,scaleY:0.9276,x:283.95,y:192.85},0).wait(1).to({scaleX:0.9355,scaleY:0.9355,y:196.55},0).wait(1).to({scaleX:0.9424,scaleY:0.9424,x:284,y:199.75},0).wait(1).to({scaleX:0.9483,scaleY:0.9483,y:202.5},0).wait(1).to({scaleX:0.953,scaleY:0.953,x:284.05,y:204.75},0).wait(1).to({scaleX:0.9568,scaleY:0.9568,y:206.5},0).wait(1).to({scaleX:0.9594,scaleY:0.9594,y:207.75},0).wait(1).to({scaleX:0.961,scaleY:0.961,y:208.45},0).wait(1).to({scaleX:0.9615,scaleY:0.9615,y:208.75},0).wait(1));
 
@@ -6543,12 +6545,12 @@ if (reversed == null) { reversed = false; }
 	// card_EN
 	this.instance_6 = new lib.Symbol44();
 	this.instance_6.setTransform(277.6,159.35,0.4083,0.4083,-90,0,0,335.1,581.9);
-	this.instance_6.cache(-2,-2,658,1167);
 
 	this.EN_Card_1 = new lib.Symbol44();
 	this.EN_Card_1.name = "EN_Card_1";
 	this.EN_Card_1.setTransform(277.6,159.35,0.4083,0.4083,-90,0,0,290.9,581.8);
 	this.EN_Card_1._off = true;
+	this.EN_Card_1.cache(-2,-2,658,1167);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},1).to({state:[{t:this.EN_Card_1}]},52).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[{t:this.EN_Card_1}]},1).to({state:[]},1).wait(41));
 	this.timeline.addTween(cjs.Tween.get(this.EN_Card_1).wait(53).to({_off:false},0).wait(1).to({regX:327,regY:581.3,x:277.15,y:128.7},0).wait(1).to({x:277.05,y:123.4},0).wait(1).to({regX:309.4,regY:581.8,x:276.75,y:103.1},0).wait(1).to({regX:327,regY:581.3,x:276.2,y:48.45},0).wait(1).to({x:275.9,y:2.2},0).wait(1).to({x:275.6,y:-42.8},0).wait(1).to({x:275.35,y:-86.55},0).wait(1).to({x:275.6,y:-96.45},0).wait(1).to({x:276.05},0).wait(1).to({x:276.45},0).wait(1).to({x:276.8},0).wait(1).to({rotation:-78.1329,x:278.45,y:-96.3},0).wait(1).to({rotation:-58.6929,x:280.75,y:-95.5},0).wait(1).to({rotation:-39.8957,x:282.6,y:-94},0).wait(1).to({rotation:-21.7671,x:283.75,y:-92.05},0).wait(1).to({rotation:-4.2943,x:284.3,y:-90},0).wait(1).to({scaleX:0.4412,scaleY:0.4412,rotation:0,x:284.1,y:-72.9},0).wait(1).to({scaleX:0.4836,scaleY:0.4836,x:283.85,y:-51.55},0).wait(1).to({scaleX:0.5242,scaleY:0.5242,x:283.5,y:-31.1},0).wait(1).to({scaleX:0.5632,scaleY:0.5632,x:283.2,y:-11.5},0).wait(1).to({scaleX:0.6004,scaleY:0.6004,x:282.95,y:7.25},0).wait(1).to({scaleX:0.6359,scaleY:0.6359,x:282.65,y:25.1},0).wait(1).to({scaleX:0.6696,scaleY:0.6696,x:282.4,y:42.1},0).wait(1).to({scaleX:0.7016,scaleY:0.7016,x:282.2,y:58.25},0).wait(1).to({scaleX:0.7319,scaleY:0.7319,x:282,y:73.45},0).wait(1).to({scaleX:0.7604,scaleY:0.7604,x:281.75,y:87.85},0).wait(1).to({scaleX:0.7873,scaleY:0.7873,x:281.55,y:101.35},0).wait(1).to({scaleX:0.8124,scaleY:0.8124,x:281.4,y:114},0).wait(1).to({scaleX:0.8357,scaleY:0.8357,x:281.2,y:125.75},0).wait(1).to({scaleX:0.8574,scaleY:0.8574,x:281.05,y:136.65},0).wait(1).to({scaleX:0.8773,scaleY:0.8773,x:280.95,y:146.65},0).wait(1).to({scaleX:0.8954,scaleY:0.8954,x:280.8,y:155.8},0).wait(1).to({scaleX:0.9119,scaleY:0.9119,x:280.7,y:164.15},0).wait(1).to({scaleX:0.9266,scaleY:0.9266,x:280.6,y:171.5},0).wait(1).to({scaleX:0.9396,scaleY:0.9396,x:280.5,y:178.05},0).wait(1).to({scaleX:0.9508,scaleY:0.9508,x:280.4,y:183.7},0).wait(1).to({scaleX:0.9603,scaleY:0.9603,x:280.3,y:188.5},0).wait(1).to({scaleX:0.9681,scaleY:0.9681,x:280.25,y:192.4},0).wait(1).to({scaleX:0.9742,scaleY:0.9742,y:195.5},0).wait(1).to({scaleX:0.9785,scaleY:0.9785,x:280.2,y:197.65},0).wait(1).to({scaleX:0.9811,scaleY:0.9811,x:280.15,y:198.95},0).wait(1).to({scaleX:0.982,scaleY:0.982,y:199.4},0).to({_off:true},1).wait(41));
@@ -8619,8 +8621,8 @@ lib.properties = {
 	color: "#9EAB7B",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HKcard.png?1713927008148", id:"HKcard"},
-		{src:"images/westcard.png?1713927008148", id:"westcard"}
+		{src:"images/HKcard.png?1713927355349", id:"HKcard"},
+		{src:"images/westcard.png?1713927355349", id:"westcard"}
 	],
 	preloads: []
 };
