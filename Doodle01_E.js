@@ -8621,8 +8621,8 @@ lib.properties = {
 	color: "#9EAB7B",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HKcard.png?1713927355349", id:"HKcard"},
-		{src:"images/westcard.png?1713927355349", id:"westcard"}
+		{src:"https://darkdevil727.github.io/Wedding/images/HKcard.png", id:"HKcard"},
+		{src:"https://darkdevil727.github.io/Wedding/images/westcard.png", id:"westcard"}
 	],
 	preloads: []
 };
