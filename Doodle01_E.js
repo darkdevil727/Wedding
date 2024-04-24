@@ -6543,7 +6543,6 @@ if (reversed == null) { reversed = false; }
 	// card_EN
 	this.instance_6 = new lib.Symbol44();
 	this.instance_6.setTransform(277.6,159.35,0.4083,0.4083,-90,0,0,335.1,581.9);
-	this.instance_6.cache(-2,-2,658,1167);
 
 	this.EN_Card_1 = new lib.Symbol44();
 	this.EN_Card_1.name = "EN_Card_1";
@@ -8619,8 +8618,8 @@ lib.properties = {
 	color: "#9EAB7B",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HKcard.png?1713925131094", id:"HKcard"},
-		{src:"images/westcard.png?1713925131094", id:"westcard"}
+		{src:"images/HKcard.png?1713926523451", id:"HKcard"},
+		{src:"images/westcard.png?1713926523451", id:"westcard"}
 	],
 	preloads: []
 };
