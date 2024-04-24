@@ -8727,7 +8727,7 @@ if (reversed == null) { reversed = false; }
 	this.back_but.alpha = 0.6992;
 	new cjs.ButtonHelper(this.back_but, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button}]}).to({state:[{t:this.back_but,p:{x:594.45,y:1089.45}}]},1).to({state:[{t:this.back_but,p:{x:44.15,y:1090.5}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button}]}).to({state:[{t:this.back_but,p:{x:594.45,y:1089.45}}]},1).to({state:[{t:this.back_but,p:{x:601.6,y:1086.3}}]},1).wait(1));
 
 	// Finger
 	this.fing = new lib.Symbol47();
