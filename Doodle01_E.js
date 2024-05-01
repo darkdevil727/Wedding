@@ -9266,7 +9266,7 @@ if (reversed == null) { reversed = false; }
 	new cjs.ButtonHelper(this.jenner, 0, 1, 2);
 
 	this.instance_5 = new lib.Symbol73();
-	this.instance_5.setTransform(183.8,846.95,1,1,0,0,0,88.7,129.1);
+	this.instance_5.setTransform(184,844.5,1,1,0,0,0,88.7,129.1);
 
 	this.instance_6 = new lib.Symbol43();
 	this.instance_6.setTransform(420.3,653.05,0.7596,0.7596,0,0,0,185.1,95.7);
