@@ -4237,17 +4237,13 @@ if (reversed == null) { reversed = false; }
 	this.shape_3.setTransform(70.3,55.25);
 
 	this.instance_1 = new lib.Symbol68();
-	this.instance_1.setTransform(49.6,67.5,1,1,0,0,0,80,80);
+	this.instance_1.setTransform(49.55,67.05,1.7271,3.6721,0,0,0,80,79.9);
 
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.f().s("#FF99FF").ss(3,1,1).p("EgO6CUoMiZnAAAMAAAlJ9MC0nAAAMAAAAjkMCccAAAMAAAFHHMi3cAAAgEAMGiRxMAAAEmZI7AAA");
 	this.shape_4.setTransform(59.2,59.25);
 
-	this.shape_5 = new cjs.Shape();
-	this.shape_5.graphics.f("#FFC1FA").s().p("EgO7C1VMAAAggtIbBAAMAAAkmZMAAAEmZI7BAAMiZmAAAMAAAlJ9MC0nAAAMAAAAjkMCccAAAMAAAFHGg");
-	this.shape_5.setTransform(59.2,59.25);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2}]}).to({state:[{t:this.shape_5},{t:this.shape_4},{t:this.instance_1}]},3).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2}]}).to({state:[{t:this.shape_4},{t:this.instance_1}]},3).wait(1));
 
 	this._renderFirstFrame();
 
